@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Air Pollution Prediction</title>
+  <style>
+    /* Your CSS as provided in the snippet */
+    /* ... copy all your CSS styles here ... */
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,200;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center" style="font-size: 50px; color: rgb(255, 17, 0);">
+        ANALYSE & PREDICT THE AIR POLLUTION IN INDIA USING MEMORY-BASED LEARNING APPROACHES.
+      </h1><br />
+      <i>
+        <h2 id="title" class="text-center" style="color:rgb(207, 13, 13);">WELCOME TO THIS SITE</h2><br />
+      </i>
+      <h2 id="title" class="text-center" style="font-size: 30px;">
+        Model deployment is the process of implementing a fully functioning machine learning model into production where it can make predictions based on data. Users, developers, and systems then use these predictions to make practical business decisions.
+      </h2>
+    </header>
+    <center><a href="{% url 'Home_4' %}" style="color:white;"><h2><b>HOME</b></h2></a></center>
+    <form id="survey-form" method="POST" action="">
+      {% csrf_token %}
+      <!-- Form inputs for PM2.5, PM10, NO, NO2, etc. -->
+      <div class="form-group">
+        <label for="PM2.5">PM2.5</label>
+        <input type="number" name="PM2.5" id="PM2.5" class="form-control" placeholder="PM2.5" required />
+      </div>
+      <div class="form-group">
+        <label for="PM10">PM10</label>
+        <input type="number" name="PM10" id="PM10" class="form-control" placeholder="PM10" required />
+      </div>
+      <!-- Add remaining inputs similarly for NO, NO2, NOx, NH3, CO, SO2, O3, Benzene -->
+      <!-- ... -->
+    </form>
+  </div>
+</body>
+</html>
+
