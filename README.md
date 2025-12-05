@@ -1,6 +1,6 @@
 
 ````
-# 🌫️ Air Pollution Prediction Using ML
+ 🌫️ Air Pollution Prediction Using ML
 
 Predict air quality levels in India using **machine learning models**.  
 This project provides a complete pipeline: **data preprocessing → model training → web interface** for input and predictions.
