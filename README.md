@@ -7,7 +7,7 @@ This project provides a complete pipeline: **data preprocessing → model traini
 
 ---
 
-## ⚡ Features
+⚡ Features
 
 - Analyze historical air pollution data  
 - Predict **Air Quality Index (AQI) buckets**  
@@ -19,29 +19,29 @@ This project provides a complete pipeline: **data preprocessing → model traini
 
 ---
 
-## 🛠️ Setup Instructions
+ 🛠️ Setup Instructions
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/AirPollutionPrediction.git
 cd AirPollutionPrediction
 ````
 
-### 2. Install dependencies
+2. Install dependencies
 
 ```bash
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn xgboost joblib
 ```
 
-### 3. Add the dataset
+3. Add the dataset
 
 Place `AIR.csv` in the project root. Make sure it contains **all required columns** like PM2.5, PM10, NO, NO2, CO, SO2, O3, etc.
 
 ---
 
-## 🚀 Running the Project
+🚀 Running the Project
 
-### 1. Preprocess and train models
+ 1. Preprocess and train models
 
 ```bash
 python data_preprocessing.py
@@ -50,7 +50,7 @@ python random_forest_classifier.py
 python xgb_classifier.py
 ```
 
-### 2. Use the web interface
+ 2. Use the web interface
 
 Open `index.html` in a browser to input air pollution parameters.
 
@@ -58,7 +58,7 @@ Open `index.html` in a browser to input air pollution parameters.
 
 ---
 
-## 📊 Project Overview
+ 📊 Project Overview
 
 This project predicts **air pollution levels** in India using machine learning.
 The models classify the **Air Quality Index (AQI)** based on multiple air quality indicators:
@@ -71,7 +71,7 @@ Classifiers implemented: **Extra Tree, Random Forest, XGBoost**.
 
 ---
 
-## 🧩 Modules
+ 🧩 Modules
 
 * **Data Preprocessing**: Clean data, handle missing values, encode categorical variables, remove duplicates
 * **Extra Tree Classifier**: Train and evaluate Extra Tree model
@@ -81,7 +81,7 @@ Classifiers implemented: **Extra Tree, Random Forest, XGBoost**.
 
 ---
 
-## 📂 Included Files
+ 📂 Included Files
 
 | File                          | Description                                 |
 | ----------------------------- | ------------------------------------------- |
