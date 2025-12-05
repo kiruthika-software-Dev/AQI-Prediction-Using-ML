@@ -93,6 +93,3 @@ Classifiers implemented: **Extra Tree, Random Forest, XGBoost**.
 | `AIR.csv`                     | Dataset with historical air quality data    |
 | `MODEL.pkl`, `XGB.pkl`        | Saved trained models                        |
 
-```
-
-
