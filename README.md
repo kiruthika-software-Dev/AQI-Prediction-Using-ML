@@ -1,13 +1,13 @@
 
-````
- 🌫️ Air Pollution Prediction Using ML
+
+ # 🌫️ Air Pollution Prediction Using ML
 
 Predict air quality levels in India using **machine learning models**.  
 This project provides a complete pipeline: **data preprocessing → model training → web interface** for input and predictions.
 
 ---
 
-⚡ Features
+## ⚡ Features
 
 - Analyze historical air pollution data  
 - Predict **Air Quality Index (AQI) buckets**  
@@ -19,7 +19,7 @@ This project provides a complete pipeline: **data preprocessing → model traini
 
 ---
 
- 🛠️ Setup Instructions
+ ## 🛠️ Setup Instructions
 
 1. Clone the repository
 ```bash
@@ -39,7 +39,7 @@ Place `AIR.csv` in the project root. Make sure it contains **all required column
 
 ---
 
-🚀 Running the Project
+## 🚀 Running the Project
 
  1. Preprocess and train models
 
@@ -58,7 +58,7 @@ Open `index.html` in a browser to input air pollution parameters.
 
 ---
 
- 📊 Project Overview
+##  📊 Project Overview
 
 This project predicts **air pollution levels** in India using machine learning.
 The models classify the **Air Quality Index (AQI)** based on multiple air quality indicators:
@@ -71,7 +71,7 @@ Classifiers implemented: **Extra Tree, Random Forest, XGBoost**.
 
 ---
 
- 🧩 Modules
+ ## 🧩 Modules
 
 * **Data Preprocessing**: Clean data, handle missing values, encode categorical variables, remove duplicates
 * **Extra Tree Classifier**: Train and evaluate Extra Tree model
@@ -81,7 +81,7 @@ Classifiers implemented: **Extra Tree, Random Forest, XGBoost**.
 
 ---
 
- 📂 Included Files
+ ## 📂 Included Files
 
 | File                          | Description                                 |
 | ----------------------------- | ------------------------------------------- |
